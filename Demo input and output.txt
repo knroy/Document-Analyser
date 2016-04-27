@@ -18,12 +18,12 @@ Demo Output:
 
 Incindece Matrix: 
 
-      | enter | the | total | doc | numbers: | 5 | breakthrough | drug | for | schizophrenia | new | approach | treatment | of | hopes | patients |
- DOC1 | 1     | 1   | 1     | 1   | 1        | 1 | 0            | 0    | 0   | 0             | 0   | 0        | 0         | 0  | 0     | 0        |
- DOC2 | 0     | 0   | 0     | 0   | 0        | 0 | 1            | 1    | 1   | 1             | 0   | 0        | 0         | 0  | 0     | 0        |
- DOC3 | 0     | 0   | 0     | 0   | 0        | 0 | 0            | 0    | 0   | 1             | 1   | 0        | 0         | 0  | 0     | 0        |
- DOC4 | 0     | 0   | 0     | 0   | 0        | 0 | 0            | 0    | 1   | 1             | 1   | 1        | 1         | 1  | 0     | 0        |
- DOC5 | 0     | 0   | 0     | 0   | 0        | 0 | 0            | 0    | 1   | 1             | 1   | 0        | 0         | 0  | 1     | 1        |
+      | the | total | doc | numbers: | 5 | breakthrough | drug | for | schizophrenia | new | approach | treatment | of | hopes | patients |
+ DOC1 | 1   | 1     | 1   | 1        | 1 | 0            | 0    | 0   | 0             | 0   | 0        | 0         | 0  | 0     | 0        |
+ DOC2 | 0   | 0     | 0   | 0        | 0 | 1            | 1    | 1   | 1             | 0   | 0        | 0         | 0  | 0     | 0        |
+ DOC3 | 0   | 0     | 0   | 0        | 0 | 0            | 0    | 0   | 1             | 1   | 0        | 0         | 0  | 0     | 0        |
+ DOC4 | 0   | 0     | 0   | 0        | 0 | 0            | 0    | 1   | 1             | 1   | 1        | 1         | 1  | 0     | 0        |
+ DOC5 | 0   | 0     | 0   | 0        | 0 | 0            | 0    | 1   | 1             | 1   | 0        | 0         | 0  | 1     | 1        |
 
 Invert Incindece Matrix: 
 
