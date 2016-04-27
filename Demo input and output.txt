@@ -28,7 +28,6 @@ Incindece Matrix:
 Invert Incindece Matrix: 
 
                | DOC1 | DOC2 | DOC3 | DOC4 | DOC5 |
- enter         | 1    | 0    | 0    | 0    | 0    |
  the           | 1    | 0    | 0    | 0    | 0    |
  total         | 1    | 0    | 0    | 0    | 0    |
  doc           | 1    | 0    | 0    | 0    | 0    |
