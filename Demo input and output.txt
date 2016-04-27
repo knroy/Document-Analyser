@@ -12,6 +12,7 @@ Enter Queries:
 
 new AND drug
 for OR NOT(drug OR approach)
+#
 
 Demo Output:
 ------------
