@@ -1,0 +1,52 @@
+Demo Input:
+-----------
+
+5
+Breakthrough drug for schizophrenia
+new schizophrenia
+new approach for treatment of schizophrenia
+new hopes for schizophrenia patients
+drug for prevent schizophrenia
+
+Enter Queries: 
+
+new AND drug
+for OR NOT(drug OR approach)
+
+Demo Output:
+------------
+
+Incindece Matrix: 
+
+      | enter | the | total | doc | numbers: | 5 | breakthrough | drug | for | schizophrenia | new | approach | treatment | of | hopes | patients |
+ DOC1 | 1     | 1   | 1     | 1   | 1        | 1 | 0            | 0    | 0   | 0             | 0   | 0        | 0         | 0  | 0     | 0        |
+ DOC2 | 0     | 0   | 0     | 0   | 0        | 0 | 1            | 1    | 1   | 1             | 0   | 0        | 0         | 0  | 0     | 0        |
+ DOC3 | 0     | 0   | 0     | 0   | 0        | 0 | 0            | 0    | 0   | 1             | 1   | 0        | 0         | 0  | 0     | 0        |
+ DOC4 | 0     | 0   | 0     | 0   | 0        | 0 | 0            | 0    | 1   | 1             | 1   | 1        | 1         | 1  | 0     | 0        |
+ DOC5 | 0     | 0   | 0     | 0   | 0        | 0 | 0            | 0    | 1   | 1             | 1   | 0        | 0         | 0  | 1     | 1        |
+
+Invert Incindece Matrix: 
+
+               | DOC1 | DOC2 | DOC3 | DOC4 | DOC5 |
+ enter         | 1    | 0    | 0    | 0    | 0    |
+ the           | 1    | 0    | 0    | 0    | 0    |
+ total         | 1    | 0    | 0    | 0    | 0    |
+ doc           | 1    | 0    | 0    | 0    | 0    |
+ numbers:      | 1    | 0    | 0    | 0    | 0    |
+ 5             | 1    | 0    | 0    | 0    | 0    |
+ breakthrough  | 0    | 1    | 0    | 0    | 0    |
+ drug          | 0    | 1    | 0    | 0    | 0    |
+ for           | 0    | 1    | 0    | 1    | 1    |
+ schizophrenia | 0    | 1    | 1    | 1    | 1    |
+ new           | 0    | 0    | 1    | 1    | 1    |
+ approach      | 0    | 0    | 0    | 1    | 0    |
+ treatment     | 0    | 0    | 0    | 1    | 0    |
+ of            | 0    | 0    | 0    | 1    | 0    |
+ hopes         | 0    | 0    | 0    | 0    | 1    |
+ patients      | 0    | 0    | 0    | 0    | 1    |
+ 
+ 
+ 00000=>Query not belongs to any DOC
+ 11111=>DOC1,DOC2,DOC3,DOC4,DOC5
+ 
+ 
